@@ -19,7 +19,7 @@ Nu kun je de afhankelijkheden installeren:
 $ pip install -r requirements.txt
 ```
 
-Het is ook mogelijk om met [virtualenv](1) te werken.
+Het is ook mogelijk om met [virtualenv](https://virtualenv.pypa.io) te werken.
 
 ## Draaien van het script
 
@@ -108,5 +108,3 @@ Voorbeeld van de output:
   ]
 }
 ```
-
-[1]: https://virtualenv.pypa.io/en/stable/
