@@ -19,7 +19,7 @@ Nu kun je de afhankelijkheden installeren:
 $ pip install -r requirements.txt
 ```
 
-Het is ook mogelijk om met (virtualenv)[1] te werken.
+Het is ook mogelijk om met [virtualenv](1) te werken.
 
 ## Draaien van het script
 
