@@ -48,4 +48,65 @@ bestand.
 $ python knvb-api.py --help
 ```
 
+## Output
+
+Voorbeeld van de output:
+
+```json
+{
+  "errorcode": 1000,
+  "message": "Ok, matches data follows",
+  "List": [
+    {
+      "PuntenTeam2Strafsch": null,
+      "ClassId": "25",
+      "District": "W1",
+      "Kleedkamer_official": "",
+      "ThuisClub": "Spakenburg JO11-6 ZA",
+      "ThuisLogo": "http://bin617.website-voetbal.nl/sites/voetbal.nl/files/knvblogos/BBBZ43E.png",
+      "Facility_Id": "FGDZ12N",
+      "UitClubNummer": "BBCC89Q",
+      "Aantal_Fotos": 0,
+      "Competitie": "W1-B4200*-25-468830!",
+      "PuntenTeam1Verl": null,
+      "Tijd": "0830",
+      "UitTeamId": "275723",
+      "PouleId": "468830",
+      "Hulpscheidsrechter2": "",
+      "Hulpscheidsrechter1": "",
+      "PuntenTeam2Verl": null,
+      "PuntenTeam1": null,
+      "PuntenTeam2": null,
+      "Overzicht_Reacties": "",
+      "VeldClub": "",
+      "WedstrijdDag": 2,
+      "CompType": "B",
+      "Kleedkamer_thuis": "",
+      "CompId": "B4200",
+      "MatchID": "10735335",
+      "VeldKNVB": "veld 4 Spakenburg",
+      "ThuisClubNummer": "BBBZ43E",
+      "Aantal_Reacties": "",
+      "ThuisTeamId": "256736",
+      "Facility_Adres": "Westdijk 12",
+      "Scheidsrechter": "",
+      "Aantal_Videos": 0,
+      "Verzameltijd": "",
+      "PuntenTeam1Strafsch": null,
+      "Datum": "2016-09-03",
+      "UitClub": "VVZ '49 JO11-5 ZA",
+      "Facility_naam": "Sportpark De Westmaat",
+      "Zaalveld": "Veld",
+      "UitLogo": "http://knvbclubapp.nl/sites/all/themes/knvbdataservice/images/clublogo/1420815713.png",
+      "Bijzonderheden": "",
+      "Facility_Stad": "BUNSCHOTEN-SPAKENBURG",
+      "WedstrijdNummer": "31036",
+      "Kleedkamer_uit": "",
+      "Facility_Postcode": "3752AE"
+    },
+    { ... }
+  ]
+}
+```
+
 [1]: https://virtualenv.pypa.io/en/stable/
